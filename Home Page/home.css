@@ -16,7 +16,7 @@
 
 a{
     color:var(--secondary-color);
-    font-weight: 600;
+    font-weight: 500;
 }
 li{
     list-style: none;
