@@ -140,6 +140,11 @@ button:hover{
     justify-content: flex-end;
     margin-top: 10rem;
 }
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
 .copyright {
     font-size: 0.7rem;
 }
