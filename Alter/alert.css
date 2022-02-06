@@ -13,7 +13,7 @@
     --info-font-color:#084298;
     --warn-font-color:#664d03;
 }
-.alter{
+.alert{
     margin:0.5rem;
     padding: 1rem;
     width:600px;
