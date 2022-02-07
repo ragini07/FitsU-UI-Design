@@ -15,7 +15,7 @@
 }
 .btnn{
     margin: 8px;
-    min-width: 100px;
+    min-width: 7rem;
     width: max-content;
     border: none;
     cursor: pointer;
