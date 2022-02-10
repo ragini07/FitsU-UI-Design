@@ -1,3 +1,5 @@
+
+
 /* vertical card */
 .card-vertical{
     display: flex;
@@ -58,7 +60,7 @@
 }
 /* card with badge */
 .card-badge{
-    background-color: #E67A00;
+    background-color: var(--dark-orange);
     position: absolute;
     top: 2%;
     left: 0;

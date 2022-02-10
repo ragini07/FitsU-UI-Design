@@ -11,6 +11,7 @@
     --dark-color:black;
     --light-background:rgb(167, 164, 164);
     --success-color:green;
+    --dark-orange:#E67A00;
 }
 *{
     box-sizing: border-box;
