@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 @import url('../styles.css');
-/* :root{
-    --primary-color:rgb(97, 11, 109);
-    --secondary-color:rgb(58, 56, 56);
-    --font-primary-color:white;
-    --primary-hover:rgb(78, 14, 87);
-    --secondary-hover:rgb(49, 49, 49);
-    --bg-color:rgb(45, 54, 54);
-    --body-background:rgb(56, 56, 56);
-    --font--secondary-color:rgb(219, 217, 217);
-}
- */
-
-/* navbar */
 
 a{
     color:var(--secondary-color);
@@ -114,6 +101,7 @@ button:hover{
     margin-bottom:1rem;
     font-weight: bolder;
     font-size: 2rem;
+    font-weight: bold;
 }
 .main-content-subtitle{
     line-height: 2rem;
