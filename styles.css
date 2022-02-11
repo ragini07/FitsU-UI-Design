@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 :root{
-    --primary-color:rgb(97, 11, 109);
+    --primary-color:#f2673a;
     --secondary-color:rgb(58, 56, 56);
     --font-primary-color:white;
     --primary-hover:rgb(78, 14, 87);
@@ -94,24 +94,20 @@ body{
 a{
     text-decoration: none;
 }
-.card a{
-    color:var(--dark-color);
-}
-.grid-3{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    /* grid-gap:20px; */
-}
+
+
 .center{
     text-align: center;
     margin: auto;
 }
-.bg-dark{
-    background-color: var(--light-background);
-    /* color: black; */
-}
+
 .copyright {
     font-size: 0.7rem;
+    
+}
+.footer-title{
+    font-weight: bold;
+    padding-top: 1rem;
 }
 
 @media(max-width:400px) {
@@ -124,7 +120,5 @@ a{
     .showcase::after{
         height: 80vh;
     }
-    .grid-3{
-        grid-template-columns: 1fr;
-    }
+   
 }
