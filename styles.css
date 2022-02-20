@@ -112,10 +112,18 @@ a{
     font-weight: bold;
     padding-top: 1rem;
 }
-
-@media(max-width:400px) {
+@media (max-width:950px) {
+    .content{
+        left: 8%;
+    }
+    
+}
+@media(max-width:500px) {
     .content .description{
        display: none;
+    }
+    .content{
+        left: 5%;
     }
     /* .content{}
         top:15%;
