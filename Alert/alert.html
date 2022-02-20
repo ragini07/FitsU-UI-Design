@@ -11,19 +11,19 @@
     <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <div class="menu-btn"><i class="fas fa-bars fa-2x"></i></div>
+    <header class="header">
         <nav class="navbar">
             <div class="brand">FitsU UI</div>
             <ul class="nav-left">
                 <li><a href="#">Home</a></li>
-                <li><a href="">Documentation</a></li>
-                <!-- <li><a href="">About</a></li> -->
+                <li><a href="../Avatar/avatar.html">Documentation</a></li>
             </ul>
-           <a href="https://github.com/ragini07/FitsU-UI-Design"><button class="btn">GitHub</button></a>
+           <a class="nav-right"href="https://github.com/ragini07/FitsU-UI-Design"><i class="fab fa-github fa-2x icon-light"></i></a>
         </nav>
     </header>
     <div class="main-container">
-        <div class="side-content">
+        <div class="side-content side-content-mobile">
             <div class="list1">
                 <h3 class="side-title">Home</h3>
                 <div class="side-sub-title">
@@ -73,6 +73,9 @@
                         <a href="../Rating/rating.html">Rating</a>
                     </li>
                     <li>
+                        <a href="../Slider/slider.html">Slider</a>
+                    </li>
+                    <li>
                         <a href="../Text-Utility/text.html">Text-Utilities</a>
                     </li>
                     <li>
@@ -108,7 +111,7 @@
              <div class="component-code">
                 <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%28216%2C221%2C223%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%2520%2520%2520%253Cstrong%253EInfo%2520%21%253C%252Fstrong%253E%253Cp%253EGeneral%2520information%2520alert%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%2520%21%253C%252Fstrong%253E%253Cp%253ESuccessful%2520or%2520positive%2520action%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%2520%21%2520%253C%252Fstrong%253E%253Cp%253EDanger%2520or%2520negative%2520action%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520warn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%2520%21%253C%252Fstrong%253E%253Cp%253EWarning%2520that%2520might%2520need%2520user%2520attention%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                style="width: 100%; height: 485px; border:0; transform: scale(1); overflow:hidden;"
+                style="width: 100%; height: 485px; border:0;  overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
               </div>
@@ -133,7 +136,7 @@
              <div class="component-code">
                 <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%28216%2C221%2C223%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520info-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cstrong%253EInfo%2520%21%253C%252Fstrong%253E%253Cp%253EGeneral%2520information%2520alert%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520success-lg%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253Cstrong%253ESuccess%2520%21%253C%252Fstrong%253E%253Cp%253ESuccessful%2520or%2520positive%2520action%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520error-lg%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253Cstrong%253EError%2520%21%2520%253C%252Fstrong%253E%253Cp%253EDanger%2520or%2520negative%2520action%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2520%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520warn-lg%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253Cstrong%253EWarning%2520%21%2520%253C%252Fstrong%253E%253Cp%253EWarning%2520that%2520might%2520%2509%2509%2520%2520%2520%2520%2520%2520needattention%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                style="width: 100%; height: 430px; border:0; transform: scale(1); overflow:hidden;"
+                style="width: 100%; height: 430px; border:0;  overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
               </div>
@@ -152,7 +155,7 @@
     <footer class="center copyright">
         <p>FitsU Design v1.0</p>
     </footer>
-
+    <script src="../Home Page/main.js"></script>
     <script src="./alert.js"></script>
     <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script> -->

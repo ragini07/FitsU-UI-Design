@@ -27,6 +27,10 @@ body{
     color: var(--dark-color);
     
 }
+.icon-light{
+    color : var(--light-color)
+}
+
 .showcase::after{
     background-image: url('https://media.istockphoto.com/photos/white-rippled-background-for-your-presentation-or-advertisement-picture-id1283629338?k=20&m=1283629338&s=612x612&w=0&h=q4yJjiS5u166_26226Fn9bqjLgz7KUZgpIarJVGwuB4=');
     background-size: cover;
