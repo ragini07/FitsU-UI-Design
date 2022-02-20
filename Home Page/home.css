@@ -84,7 +84,7 @@ button:hover{
 
 .main-container{
     display: flex;
-    gap:4rem;
+    /* gap:4rem; */
     padding: 5rem;
 }
 
@@ -92,6 +92,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     gap:3rem;
+    width: 20%;
 }
 
 .side-title{
@@ -119,9 +120,10 @@ button:hover{
     /* display: flex;
     flex-direction: column;
     flex-wrap: wrap; */
-    flex-grow: 1;
+    flex-grow: 1; 
     flex-shrink: 1;
     margin: 0 2rem;
+    width: 80%;
 
 }
 .main-content-title{
@@ -132,6 +134,7 @@ button:hover{
     font-weight: bold;
 }
 .main-content-subtitle{
+    margin-top: 1rem;
     line-height: 2rem;
     font-size: 1.5rem;
     font-weight: 600;
