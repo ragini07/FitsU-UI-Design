@@ -108,7 +108,7 @@ button:hover{
     cursor: pointer;
     position: fixed;
     top: 20px;
-    right: 30px;
+    right: 8px;
     z-index: 5;
     display: none;
     color :  var(--light-color);
