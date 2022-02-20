@@ -34,6 +34,7 @@ body{
 .icon-light{
     color : var(--light-color)
 }
+
 .content{
     display: flex;
     flex-direction: column;
