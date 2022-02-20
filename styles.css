@@ -125,9 +125,7 @@ a{
     .content{
         left: 5%;
     }
-    /* .content{}
-        top:15%;
-    } */
+
     .showcase::after{
         height: 80vh;
     }

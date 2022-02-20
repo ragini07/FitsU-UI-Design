@@ -108,7 +108,7 @@ button:hover{
     cursor: pointer;
     position: fixed;
     top: 20px;
-    right: 8px;
+    left: 8px;
     z-index: 5;
     display: none;
     color :  var(--light-color);
@@ -188,7 +188,7 @@ button:hover{
         left:0;
         background: var(--font-primary-color);
         overflow-y: auto;
-        width: 40%;
+        width: 60%;
         height: 100%;
         opacity: 0.9;
         padding: 30px;
@@ -207,9 +207,15 @@ button:hover{
     .side-sub-title{
         margin-bottom:1.5rem;
     }
+    .brand{
+        visibility: hidden;
+    }
 }
 @media(max-width:560px){
     .active-tab{
         border-bottom: none;
+    }
+    .side-content-mobile{
+        width: 70%;
     }
 }
