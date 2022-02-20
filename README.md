@@ -3,6 +3,9 @@
 
 FitsU UI is a component Library to fit your needs and build your UI faster.
 
+It has 15 Components and also Responsive - Implemented hamburger component to make responsive
+
+
 ## Tech Stack
 
 HTML , CSS , Javascript
