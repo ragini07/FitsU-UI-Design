@@ -13,4 +13,5 @@ mainContent.addEventListener('click',() =>{
     document.body.style.backgroundColor = "rgb(241, 241, 241)";
 })
 
-//theme
+
+

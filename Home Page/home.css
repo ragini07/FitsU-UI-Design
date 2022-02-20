@@ -125,7 +125,7 @@ button:hover{
 
 }
 .main-content-title{
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     margin-bottom:1rem;
     font-weight: bolder;
     font-size: 2rem;
