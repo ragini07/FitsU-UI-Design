@@ -7,9 +7,9 @@
     --error-color:#f44336;
     --info-color:#2196F3;
     --warn-color:#ff9800;
-    --dark-color:#212529;
+    --dark-btn-color:#212529;
     --lg-color:#ebecee;
-    --primary-btn-color:#8831da;
+    --primary-btn-color:rgb(97, 11, 109);
     --secondary-btn-color: #6c757d;
 
 }
@@ -35,7 +35,7 @@
     background-color: var(--secondary-btn-color);
 }
 .btn-dark{
-    background-color: var(--dark-color);
+    background-color: var(--dark-btn-color);
 }
 .btn-lg{
     background-color: var(--lg-color);

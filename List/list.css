@@ -1,5 +1,6 @@
 .list{
     list-style: none;
+    color : var(--dark-text)
 }
 .spaced{
     display: flex;

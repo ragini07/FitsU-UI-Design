@@ -1,9 +1,9 @@
 .toast{
-    background-color: white;
+    background-color: rgb(65, 64, 64);
     border: 1px solid var(--secondary-color);
-    border-left: 15px solid var(--primary-color);
+    /* border-left: 15px solid var(--primary-color); */
     border-radius: 0.3rem;
-    color:rgb(65, 64, 64);
+    color:var(--font-primary-color);
     margin-left: 1px;
     padding: 1rem;
     position: fixed;
@@ -14,11 +14,9 @@
     visibility: hidden;
 }
 .toast-here{
-    background-color: white;
-    border: 1px solid var(--secondary-color);
-    border-left: 15px solid var(--primary-color);
+    background-color: rgb(65, 64, 64);
     border-radius: 0.3rem;
-    color:rgb(65, 64, 64);
+    color:var(--font-primary-color);
     margin-left: 1px;
     padding: 1rem;
     font-weight: bolder;

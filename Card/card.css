@@ -8,8 +8,9 @@
     width: 100%;
     background-color: var(--font-primary-colorr);
     cursor: pointer;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+    box-shadow: 8px 6px 8px #888888;
     position: relative;
+    color: var(--dark-text);
 }
 .res-img-vertical{
     width: 100%;
@@ -26,7 +27,7 @@
 }
 .text-container-title{
     font-weight: bold;
-    color: var( --secondary-color)
+    color: var(--dark-text)
 }
 .text-container-wishlist{
     color:var(--light-background);
@@ -34,10 +35,11 @@
 .text-container-desc{
     font-weight: 500;
     font-size: 0.7rem;
-    color: var(--light-background);
+   
 }
 .price{
     display: flex;
+   
 }
 .price div{
     padding: 0 0.2rem;
@@ -74,7 +76,8 @@
 .card-horizontal{
     display: flex;
     background-color: var(--lg-color);
-    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+    box-shadow: 6px 6px 8px #888888;
+    color : var(--dark-text)
 }
 .res-img-small{
     width: 100%;
@@ -105,7 +108,7 @@
    display: flex;
    flex-direction: column;
    box-sizing: border-box;
-   box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+   box-shadow: 6px 6px 8px #888888;
   
   }
   .card-title{
@@ -129,12 +132,14 @@
      display: flex;
      flex-direction: column;
      border-radius: 5px;
-     box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+     box-shadow: 6px 6px 8px #888888;
      padding: 0.2rem;
      max-width: 300px;
+     color : var(--dark-text);
   }
 .card-with-textonly .title{
       font-weight: bolder;
+      
       
   }
   .card-with-textonly .subtitle{
