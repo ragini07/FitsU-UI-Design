@@ -105,7 +105,6 @@ button:hover{
 .side-title{
     margin-bottom:1rem;
     font-weight: 700;
-    color : var(--dark-text);
 }
 .side-sublist li {
     margin-bottom:1rem;
@@ -218,6 +217,9 @@ button:hover{
     }
     .brand{
         visibility: hidden;
+    }
+    .side-title{
+        color : var(--dark-text);
     }
 }
 @media(max-width:560px){
