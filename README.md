@@ -5,6 +5,8 @@ FitsU UI is a component Library to fit your needs and build your UI faster.
 
 It has 15 Components and also Responsive - Implemented hamburger component to make responsive
 
+Support Dark Mode
+
 
 ## Tech Stack
 
@@ -53,9 +55,8 @@ Add the below code in the head tag of your html document.
 ## Demo
 
 
-https://user-images.githubusercontent.com/40401373/154853928-003b48ae-b560-4526-bce6-ea5686109232.mp4
 
-
+https://user-images.githubusercontent.com/40401373/155017649-b8795422-46fd-4f2c-bc5b-fe4642467307.mp4
 
 
 
